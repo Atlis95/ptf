@@ -53,8 +53,6 @@ run
 
 # Exploitation
 
-use modules/exploitation/msfdb
-run
 use modules/exploitation/burp
 run
 use modules/exploitation/sqlmap
@@ -63,10 +61,10 @@ use modules/exploitation/zaproxy
 run
 use modules/exploitation/nosqlmap
 run
-use modules/exploitation/metasploit
-run
-use modules/exploitation/msfdb
-run
+#use modules/exploitation/metasploit
+#run
+#use modules/exploitation/msfdb
+#run
 use modules/exploitation/exploit-db
 run
 

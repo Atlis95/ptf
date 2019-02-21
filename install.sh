@@ -69,6 +69,8 @@ use modules/exploitation/msfdb
 run
 use modules/exploitation/exploit-db
 run
+use modules/exploitation/responder
+run
 
 # Post Exploitation
 

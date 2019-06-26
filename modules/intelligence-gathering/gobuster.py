@@ -21,11 +21,10 @@ INSTALL_LOCATION="gobuster"
 # DEPENDS FOR DEBIAN INSTALLS
 DEBIAN="golang" 
 
-<<<<<<< HEAD
-=======
-# COMMANDS TO RUN AFTER
->>>>>>> 6fd39ebe7c910ae7724850fda3b1549e5c4f79e3
-AFTER_COMMANDS='go get github.com/OJ/gobuster,cp /home/root/go/bin/gobuster /usr/local/bin'
 
+#AFTER_COMMANDS='go get github.com/OJ/gobuster,cp /home/root/go/bin/gobuster /usr/local/bin'
 # THIS WILL CREATE AN AUTOMATIC LAUNCHER FOR THE TOOL
+
 LAUNCHER=""
+
+AFTER_COMMANDS="echo 'export GOPATH=$HOME/go' > ~/.profile, . ~/.profile,go get github.com/OJ/gobuster,cp ~/go/bin/gobuster /usr/local/bin"

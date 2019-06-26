@@ -1,23 +1,23 @@
 #!/usr/bin/env python
-#######################################
-# Installation module for commix
-#######################################
+#####################################
+# Installation module for LinkFinder
+#####################################
 
 # AUTHOR OF MODULE NAME
-AUTHOR="Anastasios Stasinopoulos (ancst)"
+AUTHOR="devilok"
 
 # DESCRIPTION OF THE MODULE
-DESCRIPTION="This module will install/update the Command Injection Exploitation Tool"
+DESCRIPTION="This module will install/update LinkFinder - a tool to find endpoints and their parameters in JavaScript files"
 
 # INSTALL TYPE GIT, SVN, FILE DOWNLOAD
 # OPTIONS = GIT, SVN, FILE
 INSTALL_TYPE="GIT"
 
 # LOCATION OF THE FILE OR GIT/SVN REPOSITORY
-REPOSITORY_LOCATION="https://github.com/commixproject/commix"
+REPOSITORY_LOCATION="https://github.com/GerbenJavado/LinkFinder"
 
 # WHERE DO YOU WANT TO INSTALL IT
-INSTALL_LOCATION="commix"
+INSTALL_LOCATION="LinkFinder"
 
 # DEPENDS FOR DEBIAN INSTALLS
 DEBIAN="git"
@@ -29,4 +29,4 @@ FEDORA="git"
 AFTER_COMMANDS=""
 
 # THIS WILL CREATE AN AUTOMATIC LAUNCHER FOR THE TOOL
-LAUNCHER="commix"
+LAUNCHER="linkfinder.py"

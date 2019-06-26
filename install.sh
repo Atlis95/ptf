@@ -27,7 +27,17 @@ use modules/intelligence-gathering/wafw00f
 run	
 use modules/intelligence-gathering/smbmap
 run
-use modules/intelligence-gathering/spiderfoot
+use modules/intellegence-gathering/linux-exploit-suggester
+run
+use modules/intellegence-gathering/linuxprivchecker
+run
+use modules/intellegence-gathering/msfenum
+run
+use modules/intellegence-gathering/prowl
+run 
+use modules/intellegence-gathering/ssh-audit
+run
+use modules/intellegence-gathering/windows-exploit-suggester
 run
 
 # vuln analyse
@@ -50,6 +60,17 @@ use modules/vulnerability-analysis/lynis
 run
 use modules/vulnerability-analysis/openvas
 run
+use modules/vulnerability-analysis/droopescan
+run
+use modules/vulnerability-analysis/dotdotpwn
+run
+use modules/vulnerability-analysis/joomlavs
+run
+use modules/vulnerability-analysis/wpseku
+run
+use modules/vulnerability-analysis/xsstrike
+run
+
 
 # Exploitation
 
@@ -71,16 +92,45 @@ use modules/exploitation/exploit-db
 run
 use modules/exploitation/responder
 run
+use modules/exploitation/impacket
+run
+use modules/exploitation/mitm6
+run
+use modules/exploitation/commix
+run
+use modules/exploitation/davtest
+run
+use modules/exploitation/fuxploider
+run
+use modules/exploitation/jexboss
+run
+use modules/exploitation/pwntools
+run
+use modules/exploitation/tplmap
+run
 
 # Post Exploitation
 
 
+use modules/post-exploitation/SILENTTRINTY
+run
 use modules/post-exploitation/linenum
 run
 use modules/post-exploitation/unicorn
 run
+use modules/post-exploitation/crackmapexec
+run
+use modules/post-exploitation/empire
+run
+use modules/post-exploitation/koadic
+run
+use modules/post-exploitation/bloodhound
+run
+
 use modules/webshells/install_update_all
 run
+use modules/powershell/install_update_all
+run 
 
 # Pivoting
 
